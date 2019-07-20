@@ -46,7 +46,7 @@ app.engine(
 app.set("view engine", "handlebars");
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/unit18Populater", {
+mongoose.connect("mongodb://localhost/scraper", {
   useNewUrlParser: true
 });
 //mongoose.connect("mongodb://localhost/mongoscraper");
